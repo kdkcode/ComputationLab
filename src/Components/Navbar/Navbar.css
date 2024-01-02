@@ -1,0 +1,69 @@
+.navbar{
+    position:sticky;
+    position: sticky;
+    top: 0; /* 화면의 맨 위에 붙음 */
+    z-index: 1000; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px 7%;
+}
+
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+ul{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+
+ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+ul li:hover {
+    color: #083f7a; /* 예시 색상, 프로젝트의 테마색에 맞게 조정 */
+  
+}
+.toggle-icon{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    background: #242424;
+    padding: 10px 20px;
+    border-radius: 50px;
+
+}
+
+.search-box input{
+    padding: 6px;
+    background-color: transparent;
+    border:0;
+    outline: 0;
+    color: #fff;
+    font-size: 18px;
+    max-width: 200px;
+}
+
+.search-box input::placeholder{
+    color: #fff;
+}
+.search-box img{
+    width: 20px;
+}
+
+a {
+    color: inherit; /* 상위 요소로부터 글자 색상을 상속받도록 설정 */
+    text-decoration: none; /* 밑줄 제거 */
+}

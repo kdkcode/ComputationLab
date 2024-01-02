@@ -1,0 +1,52 @@
+/* News.css */
+.body-containers {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* 두 개의 열로 구성 */
+    gap: 20px; /* 열 사이 간격 */
+    padding: 20px; /* 컨테이너 내부 여백 */
+    max-width: 1400px; /* 최대 너비 설정 */
+    margin: auto; /* 중앙 정렬 */
+  }
+  
+  .column {
+    background-color: #f8f8f8; /* 열 배경색 */
+    padding: 20px; /* 열 내부 여백 */
+    border-radius: 8px; /* 둥근 모서리 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+  }
+  
+  .title {
+    color: #333; /* 제목 색상 */
+    margin-bottom: 15px; /* 제목 아래 여백 */
+  }
+  
+  .contents {
+    line-height: 1.6; /* 줄 간격 */
+    color: #555; /* 문단 색상 */
+    margin-bottom: 10px; /* 문단 사이 여백 */
+  }
+  
+  /* 기존 스타일 */
+
+/* Contact column만을 위한 특별한 스타일 */
+.contact-column {
+  background-color: #e8f0fe; /* 연한 파란색 배경 */
+  padding: 25px; /* 약간 더 큰 내부 여백 */
+  border-radius: 12px; /* 더 둥근 모서리 */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* 그림자 변경 */
+}
+
+.contact-column .title {
+  color: #1a73e8; /* 파란색 제목 */
+}
+
+.contact-column .contents {
+  color: #333; /* 좀 더 어두운 문단 색상 */
+  margin-bottom: 15px; /* 더 큰 문단 사이 여백 */
+  cursor: pointer; /* 커서 변경 */
+  transition: color 0.3s; /* 색상 변경시 트랜지션 */
+}
+
+.contact-column .contents:hover {
+  color: #1a73e8; /* 호버시 파란색으로 변경 */
+}

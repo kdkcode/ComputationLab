@@ -1,0 +1,30 @@
+{
+    "journals": [
+      {
+        "title": "On the Decidability of Infix Inclusion Problem",
+        "authors": ["Hyunjoon Cheon", "Joonghyuk Hahn", "Yo-Sub Han"],
+        "publishedIn": "Theory of Computing Systems",
+        "status": "To appear"
+      },
+      {
+        "title": "ARED: Automata-based Runtime Estimation for Distributed Systems using Deep Learning",
+        "authors": ["Hyunjoon Cheon", "Jinseung Ryu", "Jaecheol Ryou", "Chan Yeol Park", "Yo-Sub Han"],
+        "publishedIn": "Cluster Computing",
+        "volume": "26",
+        "pages": "2429--2641",
+        "date": "Oct. 2023"
+      }
+      // ... more journal articles
+    ],
+    "conferences": [
+      {
+        "title": "ATHENA: Mathematical Reasoning with Thought Expansion",
+        "authors": ["JB. Kim", "Hazel Kim", "Joonghyuk Hahn", "Yo-Sub Han"],
+        "event": "EMNLP 2023",
+        "status": "To appear"
+      }
+      // ... more conference papers
+    ]
+    // ... other sections like "Chapters in Books", "Misc", etc.
+  }
+  

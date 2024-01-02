@@ -1,0 +1,26 @@
+
+.footer {
+    background-color: #220135; /* 배경색 설정 */
+    text-align: center;
+    padding: 20px 0; /* 상하 여백 */
+    color:white;
+  }
+  
+  .footer-content {
+    line-height: 1.5; /* 줄 간격 */
+  }
+  
+  .footer-content p {
+    margin: 5px 0; /* 문단 간 여백 */
+  }
+  
+  .footer-content ul {
+    list-style: none; /* 목록 스타일 제거 */
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .footer-content li {
+    margin: 5px 0; /* 목록 간 여백 */
+  }
+  

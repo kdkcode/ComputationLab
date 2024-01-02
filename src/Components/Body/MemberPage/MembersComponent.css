@@ -1,0 +1,93 @@
+.members-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 한 행에 3개의 컬럼 */
+    gap: 20px; /* 카드 사이의 간격 */
+    padding: 0 20px; 
+  }
+  
+  .member-card {
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7; /* 기본 배경색 */
+    border-radius: 10px; /* 둥근 모서리 */
+    overflow: hidden; /* 이미지가 border-radius를 따르도록 설정 */
+    transition: background-color 0.3s, transform 0.3s; /* hover시 효과 */
+    cursor: pointer;
+  }
+  
+  .member-card:hover {
+    background-color: #e0e0e0; /* hover시 배경색 변경 */
+    transform: translateY(-5px); /* hover시 약간 위로 올라가는 효과 */
+  }
+  
+  .member-image {
+    width: 100px; /* 이미지 너비 */
+    height: 100px; /* 이미지 높이 */
+    border-radius: 50%; /* 원형으로 만들기 */
+    background-size: cover; /* 배경 이미지 커버 */
+    margin: 15px; /* 주변 여백 */
+  }
+  
+  .member-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  
+  .member-type,
+  .member-name,
+  .member-email,
+  .member-year {
+    margin-bottom: 5px; /* 세부 정보 사이의 간격 */
+  }
+  
+  /* Faculty 멤버의 스타일 변경 */
+  .faculty {
+    grid-column: 1 / -1; /* 첫 번째 행 전체에 걸쳐 표시 */
+    width: 32.5%;
+  }
+  
+  /* 특별한 스타일 */
+  .faculty .member-card {
+    background-color: #bee3f8; /* 배경색 변경 */
+  }
+  
+  h2 {
+    margin-top: 5px;
+    margin-bottom: 10px; /* 제목과 카드 간격 */
+    padding-left: 10px; /* 제목 왼쪽 패딩 */
+  }
+
+  /* MembersComponent.css */
+
+.alumni-list h2 {
+    padding-left: 10px;
+  }
+  
+  .alumni-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .alumni-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0; /* 배경색 */
+    border-radius: 5px; /* 둥근 모서리 */
+  }
+  
+  .alumni-name {
+    font-weight: bold;
+  }
+  
+  .alumni-year {
+    /* 추가 스타일링 */
+  }
+  
+  .alumni-affiliation {
+    /* 추가 스타일링 */
+  }
+  
