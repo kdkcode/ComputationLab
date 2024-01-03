@@ -50,3 +50,13 @@
 .contact-column .contents:hover {
   color: #1a73e8; /* 호버시 파란색으로 변경 */
 }
+
+.head-intro {
+  text-align: center; /* Horizontally center the text */
+  margin-top: 10px; /* Or any value you prefer for spacing from the top */
+  margin-bottom: 20px; /* Or any value you prefer for spacing from the bottom */
+  font-size: 2em; /* Adjust the size as needed */
+  /* Additional stylistic choices */
+  color: #333; /* Color of the text */
+  font-weight: normal; /* Weight of the font */
+}

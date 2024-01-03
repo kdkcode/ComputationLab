@@ -15,6 +15,10 @@
     width: 160px;
     cursor: pointer;
 }
+.logo-link {
+    position: absolute;
+    left: 15px; /* 로고 위치 조정 */
+}
 ul{
     flex: 1;
     list-style: none;
@@ -40,7 +44,7 @@ ul li:hover {
 .search-box{
     display: flex;
     align-items: center;
-    background: #242424;
+    /* background: #242424; */
     padding: 10px 20px;
     border-radius: 50px;
 
@@ -66,4 +70,70 @@ ul li:hover {
 a {
     color: inherit; /* 상위 요소로부터 글자 색상을 상속받도록 설정 */
     text-decoration: none; /* 밑줄 제거 */
+}
+
+/* 햄버거 메뉴 스타일 */
+.hamburger-menu {
+    display: none; /* 기본적으로는 보이지 않음 */
+    cursor: pointer;
+    position: absolute;
+    right: 15px; /* 메뉴 위치 조정 */
+}
+  
+  
+.hamburger-menu .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+ 
+}
+
+/* 모바일 뷰에서 기본 메뉴 리스트 숨기기 */
+.nav-links {
+    /* 기존 스타일 */
+    transition: all 0.3s ease;
+  }
+  
+  .nav-links-mobile {
+    display: none;
+  }
+  
+  /* 메뉴가 열려 있을 때 스타일 */
+  .open .nav-links-mobile {
+    display: block;
+  }
+
+/* 반응형 스타일 */
+@media screen and (max-width: 971px) {
+    .hamburger-menu {
+      display: block;
+    }
+  
+    .nav-links {
+      display: none;
+    }
+  
+    .nav-links-mobile {
+        display: flex;
+        flex-direction: column; /* 열로 나열 */
+        align-items: center; /* 가운데 정렬 */
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 60px; /* 메뉴 위치 조정 */
+        left: 0;
+    }
+  }
+/* 햄버거 메뉴 스타일 */
+.hamburger-menu .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
 }

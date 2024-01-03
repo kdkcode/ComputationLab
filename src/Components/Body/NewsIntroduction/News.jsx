@@ -4,6 +4,7 @@ import './NewsIntroduction.css'; // CSS 파일 임포트
 const Newsintroduction = () => {
   return (
     <div className="body-containers">
+      <h1 class="head-intro">Introduction</h1>
       <div className="column">
         <h2 className='title'>RESEARCH INTERESTS</h2>
         <p className='contents'>Our lab investigates formal languages and automata theory. The theory of computation is the branch of computer science and mathematics that deals with whether or not a problem can be solved [computability], how a problem can be solved [complexity] using algorithms.</p>

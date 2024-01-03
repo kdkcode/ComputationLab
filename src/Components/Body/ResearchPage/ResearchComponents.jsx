@@ -62,7 +62,10 @@ const ResearchComponent = () => {
     
 
     return (
-        <div className="research-container">
+        <div>
+            <h1>Research</h1>
+            <div className="research-container">
+            
             {researchTopics.map((topic, index) => (
                 <div key={index} className="research-card">
                     <h2>{topic.title}</h2>
@@ -73,7 +76,9 @@ const ResearchComponent = () => {
                     </ul>
                 </div>
             ))}
+            </div>
         </div>
+        
     );
 }
 

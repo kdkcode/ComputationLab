@@ -9,7 +9,7 @@ const Imagebody = () => {
       <img src={banner} alt="Descriptive Alt Text" />
       <div className="centered">
         <h2>Welcome</h2>
-        <h1>Theory of Computation Lab</h1>
+        <h1 class="head">Theory of Computation Lab</h1>
         <p>Department of Computer Science</p>
         <p>Yonsei University</p>
 

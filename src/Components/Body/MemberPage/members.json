@@ -1,0 +1,17 @@
+[
+    { "id": 1, "type": "Faculty", "name": "Yo-Sub Han", "image": "../src/assets/members/emmous.jpg", "email": "emmous@yonsei.ac.kr", "year": "since 2009.03" },
+    { "id": 2, "type": "Ph.D", "name": "Hyunjoon Cheon (천현준)", "image": "../src/assets/members/chj.jpg", "email": "email2@domain.com", "year": "2019" },
+    { "id": 3, "type": "Ph.D", "name": "Joonghyuk Hahn (한중혁)", "image": "../src/assets/members/hjh.jpg", "email": "email3@domain.com", "year": "2021" },
+    { "id": 4, "type": "Ph.D", "name": "Seung-yeop Baik (백승엽)", "image": "../src/assets/members/bsy.jpg", "email": "email3@domain.com", "year": "2021" },
+    { "id": 5, "type": "Ph.D", "name": "Sicheol Sung (성시철)", "image": "../src/assets/members/ssc.jpg", "email": "email3@domain.com", "year": "2021" },
+    { "id": 6, "type": "Ph.D", "name": "Shinwoo Park (박신우)", "image": "../src/assets/members/psw.jpg", "email": "email3@domain.com", "year": "2021" },
+    { "id": 7, "type": "Ph.D", "name": "Sungmin Kim (김성민)", "image": "../src/assets/members/ksm.jpg", "email": "email3@domain.com", "year": "2021" },
+    { "id": 8, "type": "Ph.D", "name": "Hye-seon Ahn (안혜선)", "image": "../src/assets/members/ahs.jpg", "email": "email3@domain.com", "year": "2021" },
+    { "id": 9, "type": "Ph.D", "name": "Elizabeth Orwig", "image": "../src/assets/members/ellie.jpg", "email": "email3@domain.com", "year": "2021" },
+    { "id": 10, "type": "Ph.D", "name": "Hong-Rae Lee (이홍래)", "image": "../src/assets/members/lhr.jpg", "email": "email3@domain.com", "year": "2021" },
+    { "id": 11, "type": "Ms.Student", "name": "Jikyeong Son (손지경)", "image": "../src/assets/members/sjk.jpg", "email": "email2@domain.com", "year": "2019" },
+    { "id": 12, "type": "Ms.Student", "name": "Youngsoo Namgoong (남궁영수)", "image": "../src/assets/members/ngys.jpg", "email": "email2@domain.com", "year": "2019" },
+    { "id": 13, "type": "Ms.Student", "name": "Seok-Ung Choi (최석웅)", "image": "../src/assets/members/csu.jpg", "email": "email2@domain.com", "year": "2019" },
+    { "id": 14, "type": "Ms.Student", "name": "Jungin Kim (김정인)", "image": "../src/assets/members/kji.jpg", "email": "email2@domain.com", "year": "2019" },
+    { "id": 15, "type": "Ms.Student", "name": "Do-Kyung Kim (김도경)", "image": "../src/assets/members/kdk.jpg", "email": "email2@domain.com", "year": "2019" }
+]

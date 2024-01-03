@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>&copy; 2024 TOC Laboratory</p>
+        <p>&copy; 2024 Theory of Computation Laboratory</p>
         <p>Yonsei university, 50, Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea</p>
         <p>Engineering 709</p>
         <ul>

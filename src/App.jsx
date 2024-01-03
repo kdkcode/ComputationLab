@@ -39,20 +39,20 @@ const App = () => {
             }/>
             <Route path="/introduction" element={
               <>
-                <Imageintroduction/>
+               
                 <Newsintroduction/>
               </>
             }/>
             <Route path="/members" element={
               <>
-                <ImageMemebers/>
+               
                 <MembersComponent/>
                 
               </>
             }/>
             <Route path="/research" element={
               <>
-                <ImageResearch/>
+                
                 <ResearchComponent/>
                 
               </>
@@ -60,7 +60,7 @@ const App = () => {
 
             <Route path="/publication" element={
               <>
-                <ImagePublication/>
+                
                 <PublicationsComponent/>
                 
               </>
